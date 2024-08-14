@@ -31,7 +31,7 @@ db.run(
             mov_title               NVARCHAR(255),
             mov_description         NVARCHAR(255),
             mov_rel_year            DATE,
-            mov_genre               NVARCHAR(255),
+            mov_genre               NVARCHAR(255)
         );
    
         CREATE TABLE IF NOT EXISTS director (
