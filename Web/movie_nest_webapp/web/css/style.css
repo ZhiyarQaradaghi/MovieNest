@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.form-wrapper {
+    max-width: 400px; 
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 2em; 
+    font-size: 4em;
+    padding: 0.1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+form#loginform, form#signupform {
+    background-color: rgb(32, 32, 32);
+    padding: 5em;
+    border-radius: 1em;
+    color: white;
+    box-shadow: 0 0px 8px black;
+}
+
+h1#h1login, h1#h1signup {
+    padding-bottom: 2em;
+}
+
+.navbar, .footer {
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+.navbar .navbar-brand, .navbar .nav-link, .footer p {
+    color: white;
+}
+
+.navbar .btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: white;
+    color: rgb(32, 32, 32);
+}
