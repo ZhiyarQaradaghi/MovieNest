@@ -2,18 +2,7 @@ const sqlite3 = require('sqlite3')
 db = new sqlite3.Database('database.db')
 
 
-/**
- * 
- * Movie Data Attributes:
-Each movie entry should include the following details:
-Movie: Title, Description, Release Year, Genre, Director(s)
-Cast: List of actors, including their name, age, and country of origin.
-Likes: A count of how many users have liked the movie.
-Comments: User-generated comments about the movie.
-Ensure the database schema accommodates these details efficiently.
 
- * 
- */
 
 db.run(
 
