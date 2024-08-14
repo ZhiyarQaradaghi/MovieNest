@@ -1,5 +1,5 @@
-const sqlite3 = require('sqlite3')
-db = new sqlite3.Database('database.db')
+const sqlite3 = require('sqlite3');
+db = new sqlite3.Database('Web/movie_nest_webapp/server/database.db');
 
 db.run(
 
