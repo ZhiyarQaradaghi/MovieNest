@@ -1,8 +1,9 @@
 # Ignore specific paths in the Web/movie_nest_webapp directory
 Web/movie_nest_webapp/server/node_modules/
-Web/movie_nest_webapp/media/
+Web/movie_nest_webapp/web/media
 Web/movie_nest_webapp/server/package-lock.json
 Web/movie_nest_webapp/server/package.json
+Web/movie_nest_webapp/server/images
 
 Mobile/movie_nest_app/.dart_tool/*
 Mobile/movie_nest_app/.idea/*
