@@ -8,25 +8,28 @@
     <title>About - MovieNest</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(32, 32, 32);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">MovieNest</a>
+            <a class="navbar-brand text-white" href="#">MovieNest</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="movielibrary.html">Movie Library</a>
+                        <a class="nav-link text-white" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="moviebrowser.html">Movie Browser</a>
+                        <a class="nav-link text-white" href="movielibrary.html">Movie Library</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About Us</a>
+                        <a class="nav-link text-white" href="moviebrowser.html">Movie Browser</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="addmovie.html">Add Movie</a>
                     </li>
                 </ul>
             </div>
@@ -34,14 +37,21 @@
     </nav>
 
     <main class="container my-4">
-        <!-- Page specific content -->
+        <h1 class="mb-4">About MovieNest</h1>
+        <p>MovieNest is your go-to platform for discovering, managing, and enjoying your favorite movies. Our mission is to provide an intuitive and seamless experience for movie enthusiasts to browse, rate, and organize their movie collections.</p>
+        <p>Our platform features:</p>
+        <ul>
+            <li><strong>Movie Library:</strong> A personal library where you can add and manage your favorite films.</li>
+            <li><strong>Movie Browser:</strong> Explore a vast collection of movies and add them to your library with ease.</li>
+            <li><strong>Admin Panel:</strong> Admins can add new movies to the database for users to explore.</li>
+        </ul>
+        <p>We strive to continuously enhance our service based on user feedback and technological advancements.</p>
     </main>
 
-    <footer class="footer text-center py-3 mt-auto">
+    <footer class="footer text-center py-3 mt-auto" style="background-color: rgb(32, 32, 32); color: white;">
         <p>&copy; 2024 MovieNest. All rights reserved.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script type="module" src="javascript/script.js"></script>
 </body>
 </html>
