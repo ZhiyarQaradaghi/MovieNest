@@ -35,48 +35,6 @@
             </div>
         </div>
     </nav>
-
-    <main class="container my-4">
-        <div class="modal fade" id="editMovieModal" tabindex="-1" aria-labelledby="editMovieModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="editMovieModalLabel">Edit Movie Details</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form id="editMovieForm">
-                            <div class="mb-3">
-                                <label for="movieTitle" class="form-label">Title</label>
-                                <input type="text" class="form-control" id="movieTitle" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="movieDescription" class="form-label">Description</label>
-                                <textarea class="form-control" id="movieDescription" rows="3" required></textarea>
-                            </div>
-                            <div class="mb-3">
-                                <label for="movieReleaseYear" class="form-label">Release Year</label>
-                                <input type="number" class="form-control" id="movieReleaseYear" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="movieGenre" class="form-label">Genre</label>
-                                <input type="text" class="form-control" id="movieGenre" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="editMovieDirectors" class="form-label">Director(s)</label>
-                                <input type="text" class="form-control" id="editMovieDirectors" placeholder="dir1, dir2, dir3 ..." required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="editMovieCast" class="form-label">Cast(s)</label>
-                                <input type="text" class="form-control" id="editMovieCast" placeholder="cast1, cast2, cast3 ..." required>
-                            </div>
-                            <input type="hidden" id="movieId">
-                            <button type="button" id="saveChangesBtn" class="btn btn-primary">Save Changes</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
         
         <div class="row" id="movieCardsLibrary">
         </div>
@@ -88,6 +46,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="javascript/libraryscript.js"></script>
-    <script src="javascript/searchscript.js"></script>
 </body>
 </html>

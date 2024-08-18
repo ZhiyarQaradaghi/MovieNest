@@ -8,8 +8,6 @@ async function showMovies() {
 
     moviesReversed.forEach(movie => {
         const imagePath = movie.image ? `http://localhost:8080/images/${movie.image}` : 'http://localhost:8080/images/default_image.jpg';
-        const directors = JSON.parse(movie.directors).map(director => director.name).join(', ');
-        const cast = JSON.parse(movie.cast).map(castMember => castMember.name).join(', ');
 
         movieCardsContainer.innerHTML += `
             <div class="col-md-4 mb-4">
@@ -18,10 +16,6 @@ async function showMovies() {
                     <div class="card-body">
                         <h5 class="card-title">${movie.title}</h5>
                         <p class="card-text">Description: ${movie.description}</p>
-                        <p class="card-text">Release Year: ${movie.release_year}</p>
-                        <p class="card-text">Genre: ${movie.genre}</p>
-                        <p class="card-text">Directors: ${directors}</p>
-                        <p class="card-text">Cast: ${cast}</p>
                         <p class="card-text">Likes: <span id="likes-${movie.id}">${movie.likes}</span></p>
                         <button id="like-button-${movie.id}" class="btn btn-secondary">${movie.likes > 0 ? 'Unlike' : 'Like'}</button>
                         <button class="btn btn-primary add-to-library" data-movie-id="${movie.id}">Add to Library</button>
@@ -45,6 +39,8 @@ async function showMovies() {
         }
     });
 }
+
+
 
 async function toggleLike(movieId) {
     const response = await fetch(`http://localhost:8080/toggleLike/${movieId}`, {
