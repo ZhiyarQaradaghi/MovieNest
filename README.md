@@ -7,7 +7,9 @@ Full Name: Zhiyar Burhan Mahmud
 Phone Number: 0751 163 1416
 
 <br>
-ScreenShots:
+
+<details>
+  <summary>Application Screeshots</summary>
 ![image](https://github.com/user-attachments/assets/a0ce19cb-be12-4d83-9269-1161a9b6503b)
 <br>
 ![image](https://github.com/user-attachments/assets/bd405de7-fba3-47ed-8a93-a139b0a4fb17)
@@ -23,4 +25,4 @@ ScreenShots:
 ![Screenshot 2024-08-18 231020](https://github.com/user-attachments/assets/1f2f6c7d-f4d0-4a01-9ca8-311d85600cfe)
 <br>
 ![Screenshot 2024-08-18 231034](https://github.com/user-attachments/assets/0702f861-c212-4d0b-a50f-5347f2fc32a2)
-
+</details>
