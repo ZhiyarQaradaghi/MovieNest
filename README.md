@@ -9,7 +9,7 @@ Phone Number: 0751 163 1416
 <br>
 
 <details>
-  <summary>Application Screeshots</summary>
+  <summary>Application Screenshots</summary>
 ![image](https://github.com/user-attachments/assets/a0ce19cb-be12-4d83-9269-1161a9b6503b)
 <br>
 ![image](https://github.com/user-attachments/assets/bd405de7-fba3-47ed-8a93-a139b0a4fb17)
